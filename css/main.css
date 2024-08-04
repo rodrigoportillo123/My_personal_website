@@ -3,8 +3,27 @@
 :root{
     --primary-color: #FF8343;
     --secundary-color: #F1DEC6;
+    --tercer-color: rgb(238, 229, 229);
+
 /*Letra*/
     --primary-font:  "Poppins", sans-serif;
 
 
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+ display: flex;
+ justify-content: space-between;
+ background-color: var(--primary-color);
+ padding: 1rem;
+ align-items: center;
+
+}
+.navbar-title{
+
+    color: var(--tercer-color);
 }
